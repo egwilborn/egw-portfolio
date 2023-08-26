@@ -14,6 +14,7 @@ export default function AboutMeCard() {
         flexDirection: "row",
         justifyContent: "center",
         alignItems: "center",
+        padding: "20px 10px 20px 10px",
       }}
     >
       <div
@@ -25,9 +26,9 @@ export default function AboutMeCard() {
         }}
       >
         <Image
-          size="medium"
           src="https://i.imgur.com/RmUpFte.jpg"
           floated="left"
+          style={{ height: "auto", width: "30vw", maxWidth: "250px" }}
         />
         <div style={{ color: "rgb(154 144 152)", width: "30vw" }}>
           <p

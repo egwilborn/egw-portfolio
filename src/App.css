@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(101 117 130) !important;
+}

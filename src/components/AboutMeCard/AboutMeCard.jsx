@@ -1,6 +1,6 @@
 import { Image } from "semantic-ui-react";
-import "./NameCard.css";
-export default function NameCard() {
+
+export default function AboutMeCard() {
   return (
     <div
       style={{
@@ -25,9 +25,9 @@ export default function NameCard() {
         }}
       >
         <Image
-          src="https://i.imgur.com/2J1Pham.png"
+          size="medium"
+          src="https://i.imgur.com/RmUpFte.jpg"
           floated="left"
-          style={{ width: "30vw", height: "30vh", maxWidth: "300px" }}
         />
         <div style={{ color: "rgb(154 144 152)", width: "30vw" }}>
           <p
@@ -35,12 +35,6 @@ export default function NameCard() {
             style={{ textAlign: "left", fontSize: "4vw", marginLeft: "30px" }}
           >
             Emily
-          </p>
-          <p
-            className="LastName"
-            style={{ textAlign: "right", fontSize: "4vw" }}
-          >
-            Wilborn
           </p>
         </div>
       </div>

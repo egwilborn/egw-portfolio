@@ -1,4 +1,4 @@
-import { Menu } from "semantic-ui-react";
+import { Menu, Popup } from "semantic-ui-react";
 import "./ContactMenu.css";
 export default function NavBar() {
   return (
@@ -18,15 +18,25 @@ export default function NavBar() {
         style={{ color: "rgb(208 208 210)" }}
         name="Resume"
       >
-        Resume
-      </Menu.Item>{" "}
+        <a
+          style={{ color: "rgb(208 208 210)" }}
+          href="https://docs.google.com/document/d/15ObwAUqRXgdQG89ufbyshkdv_GLtOmw0XjxGiLUZz_U/edit?usp=sharing"
+        >
+          Resume
+        </a>
+      </Menu.Item>
       •
       <Menu.Item
         className="ContactMenu"
         style={{ color: "rgb(208 208 210)" }}
         name="LinkedIn"
       >
-        LinkedIn
+        <a
+          style={{ color: "rgb(208 208 210)" }}
+          href="https://www.linkedin.com/in/emily-g-wilborn"
+        >
+          LinkedIn
+        </a>
       </Menu.Item>
       •
       <Menu.Item
@@ -34,7 +44,12 @@ export default function NavBar() {
         style={{ color: "rgb(208 208 210)" }}
         name="GitHub"
       >
-        GitHub
+        <a
+          style={{ color: "rgb(208 208 210)" }}
+          href="https://github.com/egwilborn"
+        >
+          GitHub
+        </a>
       </Menu.Item>
       •
       <Menu.Item
@@ -42,7 +57,17 @@ export default function NavBar() {
         style={{ color: "rgb(208 208 210)" }}
         name="Email"
       >
-        Email
+        <Popup
+          content="egwilborn@gmail.com"
+          trigger={
+            <a
+              style={{ color: "rgb(208 208 210)" }}
+              href="mailto:egwilborn@gmail.com"
+            >
+              Email
+            </a>
+          }
+        />
       </Menu.Item>
     </Menu>
   );

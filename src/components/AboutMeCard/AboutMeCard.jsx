@@ -4,39 +4,83 @@ export default function AboutMeCard() {
   return (
     <div
       style={{
-        width: "70vw",
-        height: "50vh",
-        backgroundColor: "rgb(30 41 55)",
-        padding: "10px 10px 10px 10px",
-        margin: "5vh 10px 5vh 5px",
-        borderWidth: "0px",
         display: "flex",
-        flexDirection: "row",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        padding: "20px 10px 20px 10px",
       }}
     >
       <div
+        className="Skills"
         style={{
           display: "flex",
           flexDirection: "row",
-          justifyContent: "space-between",
+          justifyContent: "center",
           alignItems: "center",
+          color: "rgb(208 208 210)",
+          fontSize: "3vw",
+          height: "5vh",
+          width: "auto",
         }}
       >
-        <Image
-          src="https://i.imgur.com/RmUpFte.jpg"
-          floated="left"
-          style={{ height: "auto", width: "30vw", maxWidth: "250px" }}
-        />
-        <div style={{ color: "rgb(154 144 152)", width: "30vw" }}>
-          <p
-            className="FirstName"
-            style={{ textAlign: "left", fontSize: "4vw", marginLeft: "30px" }}
+        About Me
+      </div>
+      <div
+        style={{
+          width: "70vw",
+          height: "50vh",
+          backgroundColor: "rgb(30 41 55)",
+          padding: "10px 10px 10px 10px",
+          margin: "5vh 10px 5vh 5px",
+          borderWidth: "0px",
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          alignItems: "center",
+          maxWidth: "800px",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
+          <Image
+            src="https://i.imgur.com/RmUpFte.jpg"
+            floated="left"
+            style={{ height: "auto", width: "30vw", maxWidth: "250px" }}
+          />
+          <div
+            style={{
+              color: "rgb(154 144 152)",
+              width: "30vw",
+            }}
           >
-            Emily
-          </p>
+            <p
+              className="FirstName"
+              style={{
+                textAlign: "left",
+                fontSize: "110%",
+                marginLeft: "30px",
+                width: "100%",
+                margin: "10px 10px 10px 10px",
+              }}
+            >
+              <span style={{ color: "rgb(208 208 210)", fontWeight: "bold" }}>
+                I am a chemist turned front-end engineer with a passion for
+                building new things.
+              </span>
+              <br />
+              <br />I made the change to software engineering because I
+              appreciate the challenge of continuously learning new skills. I am
+              looking forward to applying those skills to exciting new projects.
+              In my spare time, I enjoy hiking and running around Minneapolis,
+              reading fantasy books, and watching my favorite tv shows.
+            </p>
+          </div>
         </div>
       </div>
     </div>

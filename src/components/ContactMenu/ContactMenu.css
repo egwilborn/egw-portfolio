@@ -4,3 +4,9 @@
   font-family: "Raleway", sans-serif;
   font-size: 2vw;
 }
+a:link {
+  color: rgb(208 208 210);
+}
+a:hover {
+  color: blue;
+}

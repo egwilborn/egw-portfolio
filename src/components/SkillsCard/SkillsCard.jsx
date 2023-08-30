@@ -2,69 +2,18 @@ import "./SkillsCard.css";
 import { Icon, Image, Grid } from "semantic-ui-react";
 export default function SkillsCard() {
   return (
-    <section
-      style={{
-        width: "70vw",
-        height: "60vh",
-        margin: "5vh 0 20vh 0",
-        backgroundColor: "rgb(97 118 129)",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <div
-        className="Skills"
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-          alignItems: "center",
-          color: "rgb(208 208 210)",
-          fontSize: "3vw",
-          height: "5vh",
-          width: "5vw",
-          marginBottom: "15px",
-        }}
-      >
-        Skills
-      </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-evenly",
-          alignItems: "center",
-          width: "70vw",
-          height: "50vh",
-        }}
-      >
+    <section className="skills-section">
+      <div className="Skills">Skills</div>
+      <div className="skills-div">
         <div className="Front-End">
-          <span
-            className="ul-title"
-            style={{
-              color: "rgb(76 30 57)",
-              fontSize: "2vw",
-            }}
-          >
-            Front-End
-          </span>
+          <span className="ul-title">Front-End</span>
           <ul className="Front-End-UL">
-            <Grid style={{ height: "100%", width: "100%" }}>
-              <Grid.Row
-                columns="two"
-                centered
-                style={{
-                  height: "100%",
-                  width: "100%",
-                  display: "flex",
-                  flexDirection: "row",
-                }}
-              >
+            <Grid className="front-end-grid">
+              <Grid.Row className="Front-End-Row">
                 <Grid.Column
                   style={{
                     height: "100%",
+                    width: "auto",
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-between",
@@ -83,6 +32,7 @@ export default function SkillsCard() {
                 <Grid.Column
                   style={{
                     height: "100%",
+                    width: "auto",
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-evenly",
@@ -109,26 +59,16 @@ export default function SkillsCard() {
         </div>
 
         <div className="Back-End">
-          <span
-            className="ul-title"
-            style={{ color: "rgb(158 144 152)", fontSize: "2vw" }}
-          >
+          <span className="ul-title" style={{ color: "rgb(158 144 152)" }}>
             Back-End
           </span>
           <ul className="Back-End-UL">
-            <Grid style={{ height: "100%" }}>
-              <Grid.Row
-                columns="two"
-                centered
-                style={{
-                  height: "100%",
-                  display: "flex",
-                  flexDirection: "row",
-                }}
-              >
+            <Grid className="back-end-grid" style={{ height: "100%" }}>
+              <Grid.Row className="Back-End-Row" center>
                 <Grid.Column
                   style={{
                     height: "100%",
+                    width: "auto",
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-between",
@@ -166,6 +106,7 @@ export default function SkillsCard() {
                 <Grid.Column
                   style={{
                     height: "100%",
+                    width: "auto",
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-between",

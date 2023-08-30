@@ -3,11 +3,38 @@
 .Skills {
   font-family: "Raleway", sans-serif;
   font-size: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(208 208 210);
+  font-size: 3vw;
+  height: 5vh;
+  width: 5vw;
+  margin-bottom: 15px;
+}
+.ul-title {
+  color: rgb(76 30 57);
+  font-size: 2vw;
+}
+
+.skills-section {
+  width: 70vw;
+  height: auto;
+  margin: 5vh 0 20vh 0;
+  background-color: rgb(97 118 129);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .ul-title {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   margin-bottom: 10px;
+}
+.ui.grid > .row {
+  justify-content: space-evenly;
 }
 .Front-End,
 .Back-End {
@@ -26,12 +53,24 @@
 .Back-End {
   background-color: rgb(76 30 57);
 }
+.Front-End-Row {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Back-End-Row {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .Front-End-UL,
 .Back-End-UL {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   height: 100%;
   width: 90%;
@@ -45,4 +84,49 @@
 }
 .Back-End-UL {
   color: rgb(158 144 152);
+}
+.front-end-grid,
+.back-end-grid {
+  width: 100%;
+  height: 100%;
+}
+.skills-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70vw;
+  height: 50vh;
+}
+@media only screen and (max-width: 1099px) {
+  .skills-div {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .Front-End,
+  .Back-End {
+    width: 70vw;
+    height: 60em;
+  }
+  .ul-title {
+    font-size: 120%;
+  }
+  .Back-End-UL,
+  .Front-End-UL {
+    font-size: 120%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .back-end-grid,
+  .front-end-grid {
+    width: 100%;
+  }
+  .skills-section {
+    height: 80vh;
+  }
 }

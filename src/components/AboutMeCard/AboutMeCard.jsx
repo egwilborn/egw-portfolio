@@ -1,15 +1,8 @@
 import { Image } from "semantic-ui-react";
-
+import "./AboutMe.css";
 export default function AboutMeCard() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <div className="about-me-div">
       <div
         className="Skills"
         style={{
@@ -49,9 +42,9 @@ export default function AboutMeCard() {
           }}
         >
           <Image
+            className="about-me-image"
             src="https://i.imgur.com/RmUpFte.jpg"
             floated="left"
-            style={{ height: "auto", width: "30vw", maxWidth: "250px" }}
           />
           <div
             style={{
@@ -59,16 +52,7 @@ export default function AboutMeCard() {
               width: "30vw",
             }}
           >
-            <p
-              className="FirstName"
-              style={{
-                textAlign: "left",
-                fontSize: "110%",
-                marginLeft: "30px",
-                width: "100%",
-                margin: "10px 10px 10px 10px",
-              }}
-            >
+            <p className="about-me-description">
               <span style={{ color: "rgb(208 208 210)", fontWeight: "bold" }}>
                 I am a chemist turned front-end engineer with a passion for
                 building new things.

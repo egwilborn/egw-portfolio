@@ -1,5 +1,5 @@
 .project-card {
-  height: 42vh;
+  height: 45vh;
   width: 29vw;
   display: flex;
   flex-direction: column;
@@ -20,4 +20,15 @@
 }
 .project-text > a:hover {
   color: rgb(191, 191, 195);
+}
+
+@media only screen and (max-width: 1099px) {
+  .project-card {
+    height: 45vh;
+    width: 29vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 }

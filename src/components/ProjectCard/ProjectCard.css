@@ -12,4 +12,12 @@
 .project-text {
   color: rgb(158 144 152);
   text-align: center;
+  margin-top: 5px;
+}
+
+.project-text > a {
+  color: rgb(158 144 152);
+}
+.project-text > a:hover {
+  color: rgb(191, 191, 195);
 }

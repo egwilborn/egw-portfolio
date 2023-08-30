@@ -31,7 +31,17 @@ export default function ProjectCard() {
             ></Image>
             <div className="project-text">
               <span style={{ color: "rgb(208 208 210)" }}>Novel Nest</span>
-              <br /> Live Site • GitHub
+              <br />
+              <a className="project-link" href="https://novelnest.fly.dev/">
+                Live Site
+              </a>
+              •
+              <a
+                className="project-link"
+                href="https://github.com/egwilborn/project-4-novel-nest"
+              >
+                GitHub
+              </a>
             </div>
           </div>
         </Grid.Column>
@@ -42,11 +52,24 @@ export default function ProjectCard() {
           >
             <Image
               className="project-image"
-              src="https://i.imgur.com/k91d5OG.png"
+              src="https://i.imgur.com/MTm1RLg.png"
             ></Image>
             <div className="project-text">
               <span style={{ color: "rgb(208 208 210)" }}>Travelog</span>
-              <br /> Live Site • GitHub
+              <br />
+              <a
+                className="project-link"
+                href="https://wilborn-travelog-app.onrender.com/login"
+              >
+                Live Site
+              </a>
+              •
+              <a
+                className="project-link"
+                href="https://github.com/egwilborn/project-3-mern"
+              >
+                GitHub
+              </a>
             </div>
           </div>
         </Grid.Column>
@@ -60,8 +83,21 @@ export default function ProjectCard() {
               src="https://i.imgur.com/wL2PaBe.png"
             ></Image>
             <div className="project-text">
-              <span style={{ color: "rgb(208 208 210)" }}>RadioDB</span>
-              <br /> Live Site • GitHub
+              <span style={{ color: "rgb(208 208 210)" }}> RadioDB </span>
+              <br />
+              <a
+                className="project-link"
+                href="https://long-pear-seahorse-suit.cyclic.app/podcasts"
+              >
+                Live Site
+              </a>
+              •
+              <a
+                className="project-link"
+                href="https://github.com/egwilborn/unit-2-project"
+              >
+                GitHub
+              </a>
             </div>
           </div>
         </Grid.Column>
@@ -79,7 +115,20 @@ export default function ProjectCard() {
             ></Image>
             <div className="project-text">
               <span style={{ color: "rgb(208 208 210)" }}>Wilted Word</span>
-              <br /> Live Site • GitHub
+              <br />
+              <a
+                className="project-link"
+                href="https://egwilborn.github.io/browser-game-project/"
+              >
+                Live Site
+              </a>
+              •
+              <a
+                className="project-link"
+                href="https://github.com/egwilborn/browser-game-project"
+              >
+                GitHub
+              </a>
             </div>
           </div>
         </Grid.Column>

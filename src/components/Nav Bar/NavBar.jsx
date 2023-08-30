@@ -1,4 +1,6 @@
 import { Menu } from "semantic-ui-react";
+import { HashLink } from "react-router-hash-link";
+
 import "./NavBar.css";
 
 export default function NavBar() {
@@ -19,7 +21,9 @@ export default function NavBar() {
         style={{ color: "rgb(208 208 210)", fontSize: "3vw" }}
         name="EGW"
       >
-        EGW
+        <HashLink smooth to={"/#top"}>
+          EGW
+        </HashLink>
       </Menu.Item>
       <Menu.Item
         className="NavBar"
@@ -27,7 +31,9 @@ export default function NavBar() {
         position="right"
         name="Skills"
       >
-        Skills
+        <HashLink smooth to={"/#skills-section"}>
+          Skills
+        </HashLink>
       </Menu.Item>
       •
       <Menu.Item
@@ -35,7 +41,9 @@ export default function NavBar() {
         style={{ color: "rgb(208 208 210)" }}
         name="Projects"
       >
-        Projects
+        <HashLink smooth to={"/#project-section"}>
+          Projects
+        </HashLink>
       </Menu.Item>
       •
       <Menu.Item
@@ -43,7 +51,9 @@ export default function NavBar() {
         style={{ color: "rgb(208 208 210)" }}
         name="About Me"
       >
-        About Me
+        <HashLink smooth to={"/#about-section"}>
+          About Me
+        </HashLink>
       </Menu.Item>
       •
       <Menu.Item
@@ -51,7 +61,9 @@ export default function NavBar() {
         style={{ color: "rgb(208 208 210)" }}
         name="Contact"
       >
-        Contact
+        <HashLink smooth to={"/#contact-section"}>
+          Contact
+        </HashLink>
       </Menu.Item>
     </Menu>
   );

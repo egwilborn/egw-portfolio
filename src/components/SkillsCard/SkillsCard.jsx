@@ -2,7 +2,7 @@ import "./SkillsCard.css";
 import { Icon, Image, Grid } from "semantic-ui-react";
 export default function SkillsCard() {
   return (
-    <div
+    <section
       style={{
         width: "70vw",
         height: "60vh",
@@ -210,6 +210,6 @@ export default function SkillsCard() {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

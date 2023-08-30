@@ -3,3 +3,9 @@
   font-family: "Raleway", sans-serif;
   font-size: 2vw;
 }
+.NavBar > a {
+  color: rgb(208 208 210);
+}
+.NavBar > a:hover {
+  color: rgb(156 144 152);
+}

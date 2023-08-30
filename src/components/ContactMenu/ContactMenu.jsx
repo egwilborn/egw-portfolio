@@ -3,6 +3,7 @@ import "./ContactMenu.css";
 export default function NavBar() {
   return (
     <Menu
+      id="contact-section"
       borderless
       style={{
         display: "flex",

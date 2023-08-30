@@ -19,7 +19,7 @@ export default function NavBar() {
         name="Resume"
       >
         <a
-          style={{ color: "rgb(208 208 210)" }}
+          className="Link"
           href="https://docs.google.com/document/d/15ObwAUqRXgdQG89ufbyshkdv_GLtOmw0XjxGiLUZz_U/edit?usp=sharing"
         >
           Resume
@@ -31,10 +31,7 @@ export default function NavBar() {
         style={{ color: "rgb(208 208 210)" }}
         name="LinkedIn"
       >
-        <a
-          style={{ color: "rgb(208 208 210)" }}
-          href="https://www.linkedin.com/in/emily-g-wilborn"
-        >
+        <a className="Link" href="https://www.linkedin.com/in/emily-g-wilborn">
           LinkedIn
         </a>
       </Menu.Item>
@@ -44,10 +41,7 @@ export default function NavBar() {
         style={{ color: "rgb(208 208 210)" }}
         name="GitHub"
       >
-        <a
-          style={{ color: "rgb(208 208 210)" }}
-          href="https://github.com/egwilborn"
-        >
+        <a className="Link" href="https://github.com/egwilborn">
           GitHub
         </a>
       </Menu.Item>
@@ -60,10 +54,7 @@ export default function NavBar() {
         <Popup
           content="egwilborn@gmail.com"
           trigger={
-            <a
-              style={{ color: "rgb(208 208 210)" }}
-              href="mailto:egwilborn@gmail.com"
-            >
+            <a className="Link" href="mailto:egwilborn@gmail.com">
               Email
             </a>
           }

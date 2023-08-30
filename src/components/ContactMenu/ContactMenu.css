@@ -4,9 +4,9 @@
   font-family: "Raleway", sans-serif;
   font-size: 2vw;
 }
-a:link {
+.ContactMenu > a {
   color: rgb(208 208 210);
 }
-a:hover {
-  color: blue;
+.ContactMenu > a:hover {
+  color: rgb(156 144 152);
 }

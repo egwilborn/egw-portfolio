@@ -1,4 +1,5 @@
-import { Grid } from "semantic-ui-react";
+import { Grid, Image } from "semantic-ui-react";
+import "./ProjectCard.css";
 export default function ProjectCard() {
   return (
     <Grid columns="three" divided centered style={{ width: "90vw" }}>
@@ -20,25 +21,67 @@ export default function ProjectCard() {
       </div>
       <Grid.Row>
         <Grid.Column>
-          <div style={{ backgroundColor: "rgb(32 41 54)" }}>PROJECT 1</div>
+          <div
+            className="project-card"
+            style={{ backgroundColor: "rgb(32 41 54)" }}
+          >
+            <Image
+              className="project-image"
+              src="https://i.imgur.com/TYFQ0Ak.png"
+            ></Image>
+            <div className="project-text">
+              <span style={{ color: "rgb(208 208 210)" }}>Novel Nest</span>
+              <br /> Live Site • GitHub
+            </div>
+          </div>
         </Grid.Column>
         <Grid.Column>
-          <div style={{ backgroundColor: "rgb(66 34 57)" }}>PROJECT 2</div>
+          <div
+            className="project-card"
+            style={{ backgroundColor: "rgb(66 34 57)" }}
+          >
+            <Image
+              className="project-image"
+              src="https://i.imgur.com/k91d5OG.png"
+            ></Image>
+            <div className="project-text">
+              <span style={{ color: "rgb(208 208 210)" }}>Travelog</span>
+              <br /> Live Site • GitHub
+            </div>
+          </div>
         </Grid.Column>
         <Grid.Column>
-          <div style={{ backgroundColor: "rgb(32 41 54)" }}>PROJECT 3</div>
+          <div
+            className="project-card"
+            style={{ backgroundColor: "rgb(32 41 54)" }}
+          >
+            <Image
+              className="project-image"
+              src="https://i.imgur.com/wL2PaBe.png"
+            ></Image>
+            <div className="project-text">
+              <span style={{ color: "rgb(208 208 210)" }}>RadioDB</span>
+              <br /> Live Site • GitHub
+            </div>
+          </div>
         </Grid.Column>
       </Grid.Row>
 
       <Grid.Row>
         <Grid.Column>
-          <div style={{ backgroundColor: "rgb(66 34 57)" }}>PROJECT 4</div>
-        </Grid.Column>
-        <Grid.Column>
-          <div style={{ backgroundColor: "rgb(32 41 54)" }}>PROJECT 5</div>
-        </Grid.Column>
-        <Grid.Column>
-          <div style={{ backgroundColor: "rgb(66 34 57)" }}>PROJECT 6</div>
+          <div
+            className="project-card"
+            style={{ backgroundColor: "rgb(32 41 54)" }}
+          >
+            <Image
+              className="project-image"
+              src="https://i.imgur.com/sy5aCxA.png"
+            ></Image>
+            <div className="project-text">
+              <span style={{ color: "rgb(208 208 210)" }}>Wilted Word</span>
+              <br /> Live Site • GitHub
+            </div>
+          </div>
         </Grid.Column>
       </Grid.Row>
     </Grid>

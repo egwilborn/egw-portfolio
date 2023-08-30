@@ -130,3 +130,17 @@
     height: 80vh;
   }
 }
+
+@media only screen and (max-width: 425px) {
+  .skills-section {
+    height: 100vh;
+  }
+  .Skills {
+    font-size: 5vw;
+  }
+  .Front-End-UL,
+  .Back-End-UL {
+    height: 50vh;
+    width: 90vw;
+  }
+}

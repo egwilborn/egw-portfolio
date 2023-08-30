@@ -2,10 +2,31 @@
 .NavBar {
   font-family: "Raleway", sans-serif;
   font-size: 2vw;
+  color: rgb(208 208 210);
+}
+.NavBar-name {
+  font-family: "Raleway", sans-serif;
+  font-size: 3vw;
+  color: rgb(208 208 210);
 }
 .NavBar > a {
   color: rgb(208 208 210);
 }
 .NavBar > a:hover {
   color: rgb(156 144 152);
+}
+.NavBar-name > a {
+  color: rgb(208 208 210);
+}
+.NavBar-name > a:hover {
+  color: rgb(156 144 152);
+}
+
+@media only screen and (max-width: 560px) {
+  .NavBar {
+    font-size: 3.25vw;
+  }
+  .NavBar-name {
+    font-size: 5vw;
+  }
 }

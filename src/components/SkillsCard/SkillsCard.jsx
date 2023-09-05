@@ -9,7 +9,10 @@ export default function SkillsCard() {
           <span className="ul-title">Front-End</span>
           <ul className="Front-End-UL">
             <Grid className="front-end-grid">
-              <Grid.Row className="Front-End-Row">
+              <Grid.Row
+                className="Front-End-Row"
+                style={{ justifyContent: "center" }}
+              >
                 <Grid.Column
                   style={{
                     height: "100%",
@@ -64,7 +67,11 @@ export default function SkillsCard() {
           </span>
           <ul className="Back-End-UL">
             <Grid className="back-end-grid" style={{ height: "100%" }}>
-              <Grid.Row className="Back-End-Row" center>
+              <Grid.Row
+                className="Back-End-Row"
+                center
+                style={{ justifyContent: "center" }}
+              >
                 <Grid.Column
                   style={{
                     height: "100%",

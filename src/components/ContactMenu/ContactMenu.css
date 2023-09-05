@@ -10,3 +10,9 @@
 .ContactMenu > a:hover {
   color: rgb(156 144 152);
 }
+
+@media only screen and (max-width: 560px) {
+  .ContactMenu {
+    font-size: 3.25vw;
+  }
+}

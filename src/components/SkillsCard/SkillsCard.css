@@ -106,13 +106,16 @@
     justify-content: space-evenly;
     align-items: center;
   }
+  .skills {
+    font-size: 4vw;
+  }
   .Front-End,
   .Back-End {
     width: 70vw;
     height: 60em;
   }
   .ul-title {
-    font-size: 120%;
+    font-size: 3vw;
   }
   .Back-End-UL,
   .Front-End-UL {
@@ -120,8 +123,12 @@
     display: flex;
     align-items: center;
     width: 100%;
+    font-size: 2.5vw;
   }
-
+  .Front-End-Row,
+  .Back-End-Row {
+    justify-content: center;
+  }
   .back-end-grid,
   .front-end-grid {
     width: 100%;

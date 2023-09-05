@@ -8,7 +8,6 @@
   justify-content: center;
   align-items: center;
   color: rgb(208 208 210);
-  font-size: 3vw;
   height: 5vh;
   width: 5vw;
   margin-bottom: 15px;
@@ -16,6 +15,9 @@
 .ul-title {
   color: rgb(76 30 57);
   font-size: 2vw;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .skills-section {
@@ -28,11 +30,7 @@
   justify-content: center;
   align-items: center;
 }
-.ul-title {
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
+
 .ui.grid > .row {
   justify-content: space-evenly;
 }
@@ -42,8 +40,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 100%;
+  width: 50vw;
+  height: 50vh;
   padding: 20px 20px 20px 20px;
 }
 .Front-End {
@@ -78,6 +76,8 @@
   font-size: 1.5vw;
   font-family: "Raleway", sans-serif;
   margin-bottom: 5px;
+  margin-left: 0;
+  padding-left: 0;
 }
 .Front-End-UL {
   color: rgb(76 30 57);
@@ -100,7 +100,7 @@
 }
 @media only screen and (max-width: 1099px) {
   .skills-div {
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -112,18 +112,17 @@
   .Front-End,
   .Back-End {
     width: 70vw;
-    height: 60em;
+    height: 50vh;
   }
   .ul-title {
     font-size: 3vw;
   }
   .Back-End-UL,
   .Front-End-UL {
-    font-size: 120%;
+    font-size: 2vw;
     display: flex;
     align-items: center;
     width: 100%;
-    font-size: 2.5vw;
   }
   .Front-End-Row,
   .Back-End-Row {
@@ -139,15 +138,25 @@
 }
 
 @media only screen and (max-width: 425px) {
-  .skills-section {
-    height: 100vh;
+  .skills-section,
+  .skills-div {
+    height: 120vh;
   }
   .Skills {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
   .Front-End-UL,
   .Back-End-UL {
-    height: 50vh;
+    height: 40vh;
     width: 90vw;
+    font-size: 4.5vw;
+  }
+  .Front-End,
+  .Back-End {
+    height: 80vh;
+    width: 80vw;
+  }
+  .ul-title {
+    font-size: 5vw;
   }
 }

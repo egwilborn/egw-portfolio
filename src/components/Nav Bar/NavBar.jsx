@@ -17,30 +17,30 @@ export default function NavBar() {
       }}
     >
       <Menu.Item className="NavBar-name" name="EGW">
-        <HashLink smooth to={"/#top"}>
+        <HashLink smooth to={"/wilborn-portfolio/#top"}>
           EGW
         </HashLink>
       </Menu.Item>
       <Menu.Item className="NavBar" position="right" name="Skills">
-        <HashLink smooth to={"/#skills-section"}>
+        <HashLink smooth to={"/wilborn-portfolio/#skills-section"}>
           Skills
         </HashLink>
       </Menu.Item>
       •
       <Menu.Item className="NavBar" name="Projects">
-        <HashLink smooth to={"/#project-section"}>
+        <HashLink smooth to={"/wilborn-portfolio/#project-section"}>
           Projects
         </HashLink>
       </Menu.Item>
       •
       <Menu.Item className="NavBar" name="About Me">
-        <HashLink smooth to={"/#about-section"}>
+        <HashLink smooth to={"/wilborn-portfolio/#about-section"}>
           About Me
         </HashLink>
       </Menu.Item>
       •
       <Menu.Item className="NavBar" name="Contact">
-        <HashLink smooth to={"/#contact-section"}>
+        <HashLink smooth to={"/wilborn-portfolio/#contact-section"}>
           Contact
         </HashLink>
       </Menu.Item>

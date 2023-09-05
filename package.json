@@ -1,6 +1,6 @@
 {
-  "homepage": "https://egwilborn.github.io/egw-portfolio",
   "name": "wilborn-portfolio",
+  "homepage": "https://egwilborn.github.io/egw-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",

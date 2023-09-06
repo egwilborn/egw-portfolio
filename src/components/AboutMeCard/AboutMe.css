@@ -41,6 +41,7 @@
   height: 40vh;
   width: auto;
   max-width: 250px;
+  margin-right: 20px;
 }
 .about-me-text {
   color: rgb(154 144 152);
@@ -70,6 +71,8 @@
   }
   .about-me-image {
     height: 40vh;
+    margin-right: 0;
+    margin-bottom: 15px;
   }
   .about-me-content {
     flex-direction: column;
@@ -82,9 +85,9 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   .about-me-image {
-    height: 30vh;
+    height: 35vh;
   }
   .about-me-container {
     width: 80vw;

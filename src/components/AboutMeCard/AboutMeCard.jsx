@@ -9,7 +9,6 @@ export default function AboutMeCard() {
           <Image
             className="about-me-image"
             src="https://i.imgur.com/RmUpFte.jpg"
-            floated="left"
           />
           <div className="about-me-text">
             <p className="about-me-description">

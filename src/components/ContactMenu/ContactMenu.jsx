@@ -21,7 +21,7 @@ export default function NavBar() {
       >
         <a
           className="Link"
-          href="https://docs.google.com/document/d/15ObwAUqRXgdQG89ufbyshkdv_GLtOmw0XjxGiLUZz_U/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1_rBfM7sWoo5JBprq_g6u5ZyG-oCREtfQK87IqgfAL1Q/edit?usp=sharing"
         >
           Resume
         </a>

@@ -60,6 +60,7 @@
 }
 .project-links > a:hover {
   color: rgb(191, 191, 195);
+  text-decoration-line: underline;
 }
 
 @media only screen and (max-width: 1099px) {

@@ -14,12 +14,13 @@
 }
 .NavBar > a:hover {
   color: rgb(156 144 152);
+  text-decoration-line: underline;
 }
 .NavBar-name > a {
   color: rgb(208 208 210);
 }
 .NavBar-name > a:hover {
-  color: rgb(156 144 152);
+  color: rgb(101 117 130);
 }
 
 @media only screen and (max-width: 560px) {

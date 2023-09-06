@@ -9,6 +9,7 @@
 }
 .ContactMenu > a:hover {
   color: rgb(156 144 152);
+  text-decoration-line: underline;
 }
 
 @media only screen and (max-width: 560px) {

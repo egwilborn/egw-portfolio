@@ -17,7 +17,7 @@ export default function NameCard() {
           floated="left"
           style={{ maxWidth: "300px" }}
         />
-        <div style={{ color: "rgb(154 144 152)", width: "30vw" }}>
+        <div style={{ color: "rgb(208 208 210)", width: "30vw" }}>
           <p className="FirstName">Emily</p>
           <p className="LastName">Wilborn</p>
         </div>

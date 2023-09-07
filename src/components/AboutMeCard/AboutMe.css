@@ -22,8 +22,8 @@
   width: 70vw;
   height: 50vh;
   background-color: rgb(30 41 55);
-  padding: 10px 10px 10px 10px;
-  margin: 5vh 10px 5vh 5px;
+  padding: 15px 15px 15px 15px;
+  margin: 5vh 10px 5vh 10px;
   border-width: 0px;
   display: flex;
   flex-direction: row;
@@ -91,5 +91,10 @@
   }
   .about-me-container {
     width: 80vw;
+  }
+}
+@media only screen and (max-width: 335px) {
+  .about-me-description {
+    font-size: 95%;
   }
 }

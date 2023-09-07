@@ -19,7 +19,8 @@ export default function SkillsCard() {
                     width: "auto",
                     display: "flex",
                     flexDirection: "column",
-                    justifyContent: "space-between",
+                    justifyContent: "flex-start",
+                    gap: "10vh",
                   }}
                 >
                   <li>
@@ -38,7 +39,8 @@ export default function SkillsCard() {
                     width: "auto",
                     display: "flex",
                     flexDirection: "column",
-                    justifyContent: "space-evenly",
+                    justifyContent: "flex-start",
+                    gap: "10vh",
                   }}
                 >
                   <li>
@@ -78,7 +80,8 @@ export default function SkillsCard() {
                     width: "auto",
                     display: "flex",
                     flexDirection: "column",
-                    justifyContent: "space-between",
+                    justifyContent: "flex-start",
+                    gap: "8vh",
                   }}
                 >
                   <li>
@@ -116,7 +119,8 @@ export default function SkillsCard() {
                     width: "auto",
                     display: "flex",
                     flexDirection: "column",
-                    justifyContent: "space-between",
+                    justifyContent: "flex-start",
+                    gap: "8vh",
                   }}
                 >
                   <li style={{ display: "flex" }}>

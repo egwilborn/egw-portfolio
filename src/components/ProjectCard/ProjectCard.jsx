@@ -60,7 +60,7 @@ export default function ProjectCard() {
 
         <div
           className="project-card"
-          style={{ backgroundColor: "rgb(66 34 57)" }}
+          style={{ backgroundColor: "rgb(32 41 54)" }}
         >
           <Image
             className="project-image"
@@ -88,7 +88,7 @@ export default function ProjectCard() {
 
         <div
           className="project-card"
-          style={{ backgroundColor: "rgb(32 41 54)" }}
+          style={{ backgroundColor: "rgb(66 34 57)" }}
         >
           <Image
             className="project-image"

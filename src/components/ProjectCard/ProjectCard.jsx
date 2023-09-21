@@ -7,32 +7,7 @@ export default function ProjectCard() {
       <div className="project-cards-container">
         <div
           className="project-card"
-          style={{ backgroundColor: "rgb(32 41 54)" }}
-        >
-          <Image
-            className="project-image"
-            src="https://i.imgur.com/TYFQ0Ak.png"
-          ></Image>
-          <div className="project-text">
-            <span style={{ color: "rgb(208 208 210)" }}>Novel Nest</span>
-            <div className="project-links">
-              <a className="project-link" href="https://novelnest.fly.dev/">
-                Live Site
-              </a>
-              •
-              <a
-                className="project-link"
-                href="https://github.com/egwilborn/project-4-novel-nest"
-              >
-                GitHub
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="project-card"
-          style={{ backgroundColor: "rgb(66 34 57)" }}
+          style={{ backgroundColor: "rgb(32 41 54) " }}
         >
           <Image
             className="project-image"
@@ -51,6 +26,31 @@ export default function ProjectCard() {
               <a
                 className="project-link"
                 href="https://github.com/egwilborn/project-3-mern"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="project-card"
+          style={{ backgroundColor: "rgb(66 34 57)" }}
+        >
+          <Image
+            className="project-image"
+            src="https://i.imgur.com/TYFQ0Ak.png"
+          ></Image>
+          <div className="project-text">
+            <span style={{ color: "rgb(208 208 210)" }}>Novel Nest</span>
+            <div className="project-links">
+              <a className="project-link" href="https://novelnest.fly.dev/">
+                Live Site
+              </a>
+              •
+              <a
+                className="project-link"
+                href="https://github.com/egwilborn/project-4-novel-nest"
               >
                 GitHub
               </a>

@@ -1,4 +1,4 @@
-import { Grid, Image } from "semantic-ui-react";
+import { Grid, Image, Popup } from "semantic-ui-react";
 import "./ProjectCard.css";
 export default function ProjectCard() {
   return (
@@ -15,6 +15,7 @@ export default function ProjectCard() {
           ></Image>
           <div className="project-text">
             <span style={{ color: "rgb(208 208 210)" }}>Travelog</span>
+
             <div className="project-links">
               <a
                 className="project-link"
@@ -57,10 +58,38 @@ export default function ProjectCard() {
             </div>
           </div>
         </div>
-
         <div
           className="project-card"
-          style={{ backgroundColor: "rgb(32 41 54)" }}
+          style={{ backgroundColor: "rgb(32 41 54) " }}
+        >
+          <Image
+            className="project-image"
+            src="https://i.imgur.com/4AabJYh.png"
+          ></Image>
+          <div className="project-text">
+            <span style={{ color: "rgb(208 208 210)" }}>MyPlanner</span>
+            <div className="project-links">
+              <Popup
+                content="Not Yet Deployed"
+                trigger={
+                  <a className="Link" href="#">
+                    Live Site
+                  </a>
+                }
+              />
+              •
+              <a
+                className="project-link"
+                href="https://github.com/egwilborn/planner"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="project-card"
+          style={{ backgroundColor: "rgb(66 34 57)" }}
         >
           <Image
             className="project-image"
@@ -88,7 +117,7 @@ export default function ProjectCard() {
 
         <div
           className="project-card"
-          style={{ backgroundColor: "rgb(66 34 57)" }}
+          style={{ backgroundColor: "rgb(32 41 54)" }}
         >
           <Image
             className="project-image"
@@ -96,6 +125,7 @@ export default function ProjectCard() {
           ></Image>
           <div className="project-text">
             <span style={{ color: "rgb(208 208 210)" }}>Wilted Word</span>
+            <p></p>
             <div className="project-links">
               <a
                 className="project-link"

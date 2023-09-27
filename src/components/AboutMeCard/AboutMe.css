@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Merienda:wght@500&family=Raleway:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Merienda:wght@500&family=Raleway:ital,wght@0,300;1,600&display=swap");
 .about-me-div {
   display: "flex";
   flex-direction: "column";
@@ -44,7 +44,7 @@
   margin-right: 20px;
 }
 .about-me-text {
-  color: rgb(206, 192, 203);
+  color: rgb(208 208 210);
   width: 30vw;
 }
 .about-me-description {

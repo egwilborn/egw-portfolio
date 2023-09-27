@@ -12,7 +12,13 @@ export default function AboutMeCard() {
           />
           <div className="about-me-text">
             <p className="about-me-description">
-              <span style={{ color: "rgb(208 208 210)", fontWeight: "bold" }}>
+              <span
+                style={{
+                  color: "rgb(208 208 210)",
+                  fontWeight: "bold",
+                  fontStyle: "italic",
+                }}
+              >
                 I am a chemist turned software engineer with a passion for
                 building new things.
               </span>

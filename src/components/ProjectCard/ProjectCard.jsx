@@ -9,28 +9,36 @@ export default function ProjectCard() {
           className="project-card"
           style={{ backgroundColor: "rgb(32 41 54) " }}
         >
+          <span className="project-title">Travelog</span>
+          <div className="project-links">
+            <a
+              className="project-link"
+              href="https://wilborn-travelog-app.onrender.com/login"
+            >
+              Live Site
+            </a>
+            •
+            <a
+              className="project-link"
+              href="https://github.com/egwilborn/project-3-mern"
+            >
+              GitHub
+            </a>
+          </div>
           <Image
             className="project-image"
             src="https://i.imgur.com/MTm1RLg.png"
           ></Image>
-          <div className="project-text">
-            <span style={{ color: "rgb(208 208 210)" }}>Travelog</span>
 
-            <div className="project-links">
-              <a
-                className="project-link"
-                href="https://wilborn-travelog-app.onrender.com/login"
-              >
-                Live Site
-              </a>
-              •
-              <a
-                className="project-link"
-                href="https://github.com/egwilborn/project-3-mern"
-              >
-                GitHub
-              </a>
-            </div>
+          <div className="project-text">
+            <p>
+              Travelog is an app to make your travel wishlist and help you plan
+              your trip.
+            </p>
+          </div>
+
+          <div className="project-technologies">
+            JavaScript • React • Node.js • Express • MongoDB • Semantic • AWS
           </div>
         </div>
 
@@ -58,16 +66,23 @@ export default function ProjectCard() {
             </div>
           </div>
         </div>
+
         <div
           className="project-card"
-          style={{ backgroundColor: "rgb(32 41 54) " }}
+          style={{ backgroundColor: "rgb(32 41 54)" }}
         >
+          <span className="project-title">MyPlanner</span>
           <Image
             className="project-image"
             src="https://i.imgur.com/4AabJYh.png"
           ></Image>
+          <div className="project-technologies">
+            Python • Django • Bootstrap • HTML • CSS • DTL
+          </div>
           <div className="project-text">
-            <span style={{ color: "rgb(208 208 210)" }}>MyPlanner</span>
+            <p>MyPlanner is a productivity tool for making To Do Lists.</p>
+          </div>
+          <div className="project-text">
             <div className="project-links">
               <Popup
                 content="Not Yet Deployed"

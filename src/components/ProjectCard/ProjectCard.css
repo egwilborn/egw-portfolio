@@ -19,8 +19,10 @@
   width: 29vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
+  gap: 15px;
+  padding: 5px 5px 5px 5px;
 }
 .projects-title {
   font-family: "Raleway", sans-serif;
@@ -37,15 +39,26 @@
 .project-image {
   width: 90%;
 }
-.project-text {
-  color: rgb(158 144 152);
-  margin-top: 5px;
+.project-title {
+  color: rgb(208 208 210);
   font-size: 1.5vw;
-  height: 20%;
+  margin-top: 10px;
+}
+.project-technologies {
+  color: rgb(176, 163, 170);
+  font-size: 1.2vw;
+  text-align: center;
+  font-style: italic;
+}
+
+.project-text {
+  color: rgb(208 208 210);
+  font-size: 1.35vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
 }
 .tech-used {
   font-size: 1.15vw;
@@ -53,12 +66,14 @@
   font-style: italic;
 }
 .project-links {
+  color: rgb(176, 163, 170);
   width: 115%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 10px;
   align-items: center;
+  font-size: 1.5vw;
 }
 
 .project-links > a {

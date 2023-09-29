@@ -88,16 +88,11 @@
 
 @media only screen and (max-width: 1420px) {
   .project-card {
-    height: 53vh;
+    height: 57vh;
     width: 29vw;
   }
 }
-@media only screen and (max-width: 1099px) {
-  .project-card {
-    height: 47vh;
-    width: 29vw;
-  }
-}
+
 @media only screen and (max-width: 768px) {
   .project-text {
     font-size: 2vw;
@@ -107,12 +102,14 @@
   }
   .project-card {
     width: 35vw;
+    height: 60vh;
   }
   .project-title {
-    font-size: 4vw;
+    font-size: 2.5vw;
   }
-  .tech-used {
-    font-size: 1.25vw;
+  .project-technologies,
+  .project-links {
+    font-size: 1.8vw;
   }
 }
 @media only screen and (max-width: 570px) {
@@ -124,10 +121,17 @@
   }
   .project-card {
     width: 80vw;
-    height: 67vh;
+    height: 75vh;
+  }
+  .project-technologies,
+  .project-links {
+    font-size: 3vw;
   }
   .project-text {
     font-size: 3vw;
+  }
+  .project-title {
+    font-size: 3.5vw;
   }
   .projects-title {
     font-size: 5vw;
@@ -136,23 +140,24 @@
 
 @media only screen and (max-width: 425px) {
   .project-card {
-    height: 55vh;
+    height: 67vh;
   }
-  .project-text {
+  .project-links {
+    font-size: 3.5vw;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .project-card {
+    height: 65vh;
+  }
+  .project-title {
     font-size: 4vw;
   }
-}
-@media only screen and (max-width: 375px) {
-  .project-card {
-    height: 50vh;
+  .project-text,
+  .project-links {
+    font-size: 4vw;
   }
-  .project-text {
-    font-size: 4.5vw;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .project-card {
-    height: 45vh;
+  .project-technologies {
+    font-size: 3.5vw;
   }
 }

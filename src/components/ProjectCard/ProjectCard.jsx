@@ -62,7 +62,7 @@ export default function ProjectCard() {
             src="https://i.imgur.com/TYFQ0Ak.png"
           ></Image>
           <div className="project-technologies">
-            Python • Django • PostgreSQL • Materialize • DTL
+            Python • Django • PostgreSQL • Materialize
           </div>
           <div className="project-text">
             <p>

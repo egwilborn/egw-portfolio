@@ -16,12 +16,12 @@
 
 .project-card {
   height: 63vh;
-  width: 30vw;
+  width: 29vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 12px;
+  gap: 1.5vh;
   padding: 5px 5px 5px 5px;
 }
 .projects-title {
@@ -92,7 +92,6 @@
     width: 29vw;
   }
 }
-
 @media only screen and (max-width: 768px) {
   .project-text {
     font-size: 2vw;

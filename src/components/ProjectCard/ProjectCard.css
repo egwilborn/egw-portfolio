@@ -11,17 +11,17 @@
   justify-content: center;
   align-items: space-evenly;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 15px;
 }
 
 .project-card {
-  height: 63vh;
-  width: 29vw;
+  height: 65vh;
+  width: 32vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 1.5vh;
+  gap: 2vh;
   padding: 5px 5px 5px 5px;
 }
 .projects-title {
@@ -37,7 +37,8 @@
   margin-bottom: 20px;
 }
 .project-image {
-  width: 87%;
+  width: 83%;
+  height: 55%;
 }
 .project-title {
   color: rgb(208 208 210);
@@ -86,12 +87,6 @@
   text-decoration-line: underline;
 }
 
-@media only screen and (max-width: 1420px) {
-  .project-card {
-    height: 57vh;
-    width: 29vw;
-  }
-}
 @media only screen and (max-width: 768px) {
   .project-text {
     font-size: 2vw;

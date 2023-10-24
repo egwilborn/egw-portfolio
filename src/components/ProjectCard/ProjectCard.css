@@ -5,7 +5,7 @@
   align-items: center;
 }
 .project-cards-container {
-  width: 100vw;
+  width: 95vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -16,7 +16,7 @@
 
 .project-card {
   height: 65vh;
-  width: 32vw;
+  width: 30vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

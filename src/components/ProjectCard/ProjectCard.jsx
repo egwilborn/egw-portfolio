@@ -11,11 +11,8 @@ export default function ProjectCard() {
         >
           <span className="project-title">StudyPal</span>
           <div className="project-links">
-            <a
-              className="project-link"
-              href="https://www.youtube.com/watch?v=8GyGPvsRe6g"
-            >
-              Project Demo Video
+            <a className="project-link" href="https://studypal.support/">
+              Live Site
             </a>
             •
             <a
@@ -27,7 +24,7 @@ export default function ProjectCard() {
           </div>
           <Image
             className="project-image"
-            src="https://i.imgur.com/8pkebWJ.png"
+            src="https://i.imgur.com/iiDjJVb.png"
           ></Image>
           <div className="project-technologies">
             Next.js • JavaScript • Firebase • Passage Auth

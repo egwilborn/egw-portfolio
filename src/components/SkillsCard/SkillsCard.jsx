@@ -109,8 +109,16 @@ export default function SkillsCard() {
                     />
                     Express
                   </li>
-                  <li>
-                    <Icon className="node"></Icon> Node
+                  <li style={{ display: "flex" }}>
+                    <Image
+                      style={{
+                        height: "20px",
+                        width: "20px",
+                        marginRight: "10px",
+                      }}
+                      src="https://i.imgur.com/agej0ib.png"
+                    />
+                    Next.js
                   </li>
                 </Grid.Column>
                 <Grid.Column
@@ -120,9 +128,24 @@ export default function SkillsCard() {
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "flex-start",
-                    gap: "8vh",
+                    gap: "5vh",
                   }}
                 >
+                  <li style={{ display: "flex" }}>
+                    <Image
+                      style={{
+                        height: "20px",
+                        width: "20px",
+                        marginRight: "10px",
+                      }}
+                      src="https://i.imgur.com/IHxUcpF.png"
+                    />
+                    Firebase
+                  </li>
+                  <li>
+                    <Icon className="node"></Icon> Node
+                  </li>
+
                   <li style={{ display: "flex" }}>
                     <Image
                       style={{

@@ -57,6 +57,17 @@ export default function SkillsCard() {
                     />
                     Semantic UI
                   </li>
+                  <li style={{ display: "flex" }}>
+                    <Image
+                      style={{
+                        height: "20px",
+                        width: "20px",
+                        marginRight: "10px",
+                      }}
+                      src="https://i.imgur.com/YByLKgN.png"
+                    />
+                    Bootstrap
+                  </li>
                 </Grid.Column>
               </Grid.Row>
             </Grid>
